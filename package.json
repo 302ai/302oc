@@ -1,6 +1,6 @@
 {
   "name": "302oc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenClaw 302.AI 配置工具 - 简化 302.AI API 配置流程",
   "type": "module",
   "main": "dist/cli.js",
