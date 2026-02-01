@@ -1,0 +1,45 @@
+{
+  "name": "302oc",
+  "version": "1.0.0",
+  "description": "OpenClaw 302.AI 配置工具 - 简化 302.AI API 配置流程",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "302oc": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "302.ai",
+    "302ai",
+    "ai-assistant",
+    "cli",
+    "configuration"
+  ],
+  "author": "302.AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/302ai/302oc"
+  },
+  "homepage": "https://302.ai",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0",
+    "@types/inquirer": "^9.0.7"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
