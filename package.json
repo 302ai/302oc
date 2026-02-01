@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/cli.js",
   "bin": {
-    "302oc": "./dist/cli.js"
+    "302oc": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/302ai/302oc"
+    "url": "git+https://github.com/302ai/302oc.git"
   },
   "homepage": "https://302.ai",
   "dependencies": {
